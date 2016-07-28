@@ -10,8 +10,10 @@ void triangleType(int,int,int);
 int main(){
 	
 	int a = sanitizedInput('1');
+	while(getchar()!='\n');
 	int b = sanitizedInput('2');
-    	int c = sanitizedInput('3');
+    	while(getchar()!='\n');
+	int c = sanitizedInput('3');
 	//isTriangle(a,b,c);
 	if(isTriangle(a,b,c)){
 		triangleType(a,b,c);
