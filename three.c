@@ -14,7 +14,6 @@ int main(){
 	int b = sanitizedInput('2');
     	while(getchar()!='\n');
 	int c = sanitizedInput('3');
-	//isTriangle(a,b,c);
 	if(isTriangle(a,b,c)){
 		triangleType(a,b,c);
 	}
