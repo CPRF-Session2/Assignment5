@@ -1,0 +1,31 @@
+Jared Wasserman
+
+1) What do both of the following mean?
+
+	-Passing by value:
+		Arguments are in argument list are passed by value. Basic data type arguments in C are passed by value. They are local to the function. For example: if you have a function 
+
+		int mult(int x, int y){
+			return x*y;
+		}
+
+		When you call this function with variables x and y, you are passing the value of x and y not actualy sending the variables into the function.
+			int x = 5;
+			int y = 6;
+			mult(x,y) is the same as mult(5,6)
+
+	-Passing by reference:
+		Arrays in C are automatically passed by reference. This means that you can modify the original memory locations inside of a function. For example: if you have a function
+
+		void changeToOne(int arr[100],int size){
+			int i;
+			for(i=0;i<size;i++){
+				arr[i]=1;
+			}
+		}
+
+		When you call this function with an array, the values of the array you call it with will be changed to 1;
+
+2) The function of the return statement in C is to terminate the function and to return a value from the function.	
+
+3) The purpose to write functions is to keep you code cleaner and so when you are doing the same thing multiple times you dont have to copy your block of code. 
