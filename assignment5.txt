@@ -1,0 +1,11 @@
+Drew French
+
+1)	Passing by value: Passing a value to something.
+	Passing by reference: Passing the location where something is stored; arrays work like this.
+	Passing call-by-value: Calling a function & giving it values (such as sum(x,y)).
+
+2)	To end a function and give an output.
+
+3)	To make cleaner code & not have to copy & paste the same thing many times.
+
+4)	Call-by-value: non-array variable parameters in a function; call-by-reference: arrays input into a function.
