@@ -19,13 +19,10 @@ In a text file `assignment5.txt`, answer the following questions:
 1.  What do each of the following mean?  Include a description of the syntax or an example.
       - Passing by value:
       - Passing by reference:
-      - Passing call-by-value
 
 2.  What is the function of the return statement in C?
 
 3.  What is the purpose of writing functions? 
-
-4.  When would you use Call by Value and when would you use Call by Reference?
 
 
 ### Submission Guidelines
