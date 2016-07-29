@@ -1,0 +1,18 @@
+Jinoo Hong 
+
+1.  What do each of the following mean?  Include a description of the syntax or an example.
+      - Passing by value:
+		Passing by value means that the function will be using a copy of the argument inputted and so this will not affect the value of the original variable. (most local variables) "auto int x = 1;"
+
+
+      - Passing by reference:
+		Passing by reference means that the function will be given the actual memory address of the variable passed and so will directly be changing the original variable. (global variables and arrays in c) "static int x = 1;"
+ 
+
+
+2.  What is the function of the return statement in C?
+		It ends the function immediately and returns a value to the place where the function was called. 
+
+
+3.  What is the purpose of writing functions? 
+		It seperates the program into chunks which makes it easier to debug (eg. you only need to address a problem in a function once instead of addressing it on every time that function is called etc.). It is also less typing on the programmers part because instead of typing it everytime, you just need to call it. 
