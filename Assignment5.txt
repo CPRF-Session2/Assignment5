@@ -1,0 +1,3 @@
+1) Passing by value crates a copy of the value of a variable, and changes to the copy do not change the original. Passing by reference makes changes to the passed variable also change the original.
+2) Returning a variable in a function makes the function equal to that variable.
+3) Writing functions helps make code a lot shorter, as well as making it easier to repeat sections of code many times.
