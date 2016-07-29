@@ -1,0 +1,15 @@
+Priyanka Musti
+
+1.
+
+Passing by value= Pass the value of the variable of the variable into the fuction.
+
+Passing by reference=Changes made to the parameter change the value of the previous argument(s)
+
+2.
+
+It ends the execution of the function and returns a value to the function.
+
+3.
+
+They make programs easier to read, write, and perform what htey are supossed to do correctly.
