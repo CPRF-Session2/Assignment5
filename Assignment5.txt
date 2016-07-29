@@ -1,0 +1,23 @@
+Ashank Kumar
+
+1a. Passing by value means a copy is made of the passed value to be used locally by the function.
+
+int fnx(int a)
+{
+	a = 0;
+	return a;
+}
+
+1b. Passing by reference means the memory address of the passed variable is sent to the function, allowing the function to change the variables value globally, not just locally.
+int fnx(char str[50])
+{
+	for(int i = 0; i < 50; i++)
+	{
+		str[i] = i;
+	}
+	return str;
+}
+
+2. The return statement stops any more code from running in a function, and sends data back to the main function, if the return statement is in another function.
+
+3. Functions can be used to reuse code with having to rewrite it, and allows the programmer to easily use algorithims when needed. 
