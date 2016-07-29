@@ -1,0 +1,8 @@
+Mariposa Lee 
+1a. Passing by value is one way to pass an argument into a function. It copies tan argument value inside a function parameter. Basic arguments in C are passed by value.   
+
+1b. Passing by reference is another way to pass an argument into a function. It copies memory of the address into a function. Array types in C are passed by reference.  
+
+2. The return statement ends a function, and if the return type is not void, it will also express the result of the function. If the return type is void, it will just terminate the function. 
+
+3. Writing functions makes code a lot cleaner and organized so your int main() code isn't as complex. If you create a function, you don't have to write it all in your main() function so that the expression you created has to be applied to every variable you want to apply it to. Instead, you can just call it to your main function. 
