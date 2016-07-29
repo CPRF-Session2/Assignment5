@@ -1,12 +1,12 @@
 //Matthew Kellerman- sees if string is palindrome
 #include <stdio.h>
 #include <string.h>
-
+#include <ctype.h>
 int pal(char arr2[100],int x, int flag){
 
 
 
-if(arr2[x]!= arr2[flag]){
+if(tolower(arr2[x])!= tolower(arr2[flag])){
 //tells function to return 0(false) if string is not palindrome
 	return 0;}
 //ends code if 0 is returned
