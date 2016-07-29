@@ -4,16 +4,23 @@
 
 int pal(char arr2[100],int x, int flag){
 
-if(arr2[x]!= arr2[flag])
+
+
+if(arr2[x]!= arr2[flag]){
 //tells function to return 0(false) if string is not palindrome
-	return 0;
+	return 0;}
 //ends code if 0 is returned
-else if(x<=flag)
-	//returns 1 if x is still less than or equal to flag
+else if(x>=flag){
+
+//	returns 1 if x is  equal to (for odd strings) or greater than(for even strings) flag
 	return 1;
+}
+
 //when x is greater than flag, function stops
 else
-	return pal(arr2, x++, flag--);
+x++;
+flag-=1;
+	return pal(arr2, x, flag);
 //updates values
 }
 
