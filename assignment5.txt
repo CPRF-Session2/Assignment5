@@ -1,0 +1,13 @@
+1. What do each of the following mean? Include the description of the syntax, or an example. 
+	Passing by value: This means you pass the actual value of the variable into the function. An example is int i = 5;
+
+	Passing by reference: This means the changes made to the parameter affect the passed argument.   
+
+2. What is the function of the return statement in C?
+	It terminates the execution of a function and returns a value to the calling function. 
+
+3. What is the purpose of writing functions?
+	They make writing programs easier by automatically performing specific tasks, so we don't have to write everything outselves.
+
+ 
+
