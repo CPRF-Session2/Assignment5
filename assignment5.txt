@@ -1,0 +1,28 @@
+1.Passing by value implies that a copy of the passed variable was made, the initial variable cannot be modified unless a return statement is assigned to the local variable inside whatever function it resides in.  Many data types, such as floats and ints, are passed by value.
+int f(int x){
+	return x++;
+}
+int main(){
+	int y=0;
+	f(y);
+	printf("%d", y); /*prints 0*/
+	y = f)(y);
+	printf("%d", y); /*prints 1*/
+	return 0;
+}
+
+Passing by reference implies that the memory address of the variable was passed, so the variable can be directly modified in the function that it was passed to.  Arrays and strings are passed by referenced.
+
+void f(char w[]){
+	w[0]= 'p';
+}
+int main(){
+	char word[]= {'h', 'i'};
+	f(word);
+	printf("%s", word); /*prints pi*/
+	return 0;
+}
+
+The function of the return statement in C is to allow variables not local to a function to be modified in separate functions.
+
+Writing functions allows blocks of code to be reused without being rewritten, it makes accessing algorithms easier, and it overall makes code more readable and clean.  
