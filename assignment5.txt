@@ -1,0 +1,23 @@
+Matthew Kellerman
+
+1.
+Pass by value- Arguments in argument list are passed to a function. There is a value being copied to the function's
+formal parameters.  Basic data type (char,int,etc) arguments are passed by value and are local to the function they are in. An example of this is
+
+int sum(int a, int b){
+	total = a + b;
+	return total;
+}
+int x = 2;
+int y = 1;
+
+int var = sum(2,1);
+In the example, you are passing the values of the variable to the function.
+
+Passing by reference-Modifing originsl memeory location 
+insdie a function. Arrays are passed by reference. As an example, let's say you have an array in a function. It is arr[5]= {1,2,3}; Let's say you have an array in another function and it is arr2[5]= {1,2,4}. Let's say you pass this array to the other one. Now the memory of the first array has been changed to hold the 4 instead of the 3.
+2.
+The function of return is to return flow of control to where the function where it is in was called.
+
+3.
+The purpose of functions in C is to be reuable code that preforms a specific task and directs flow to itself. After distant code completes, it returns to where it was called from.
