@@ -1,0 +1,7 @@
+Armstrong Homework
+
+1.) Passing by value is basically making a copy of a variable and passing it to a function. Example (int variable)  Passing by reference changes the actual original value of the varialbe because it does not create a copy. Example, global variable and arrays.
+
+2.) It returns the value for that function
+
+3.) Functions are used so that you can call it as many times as you want to and not have to write out all of the steps.
