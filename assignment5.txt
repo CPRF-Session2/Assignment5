@@ -1,0 +1,16 @@
+1. Passing by value : It is when a function uses a copy of an argument, so that the variables are unchanged. Most data type arguments are passed by value. (thing1 and thing2 are not effected)
+		int something(thing1,thing2){
+			int thing1+thing2;}
+		
+		int thing1;
+		int thing2;
+		something(thing1,thing2);
+
+1b. Passing by reference : It is when a function is given the memory address of a passed variable, so that the function can change the value. 
+		for (int x=0;x<strlen(str);x++){
+			str[i]=1;
+		return str;}
+
+2. The return statement temporarily saves a variable which can be accessed in the main function.
+
+3. Functions are efficient because they can be used multiple times without needing to rewrite the wholecode, and also makes bug fixing the program easier.
