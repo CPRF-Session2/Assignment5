@@ -1,4 +1,4 @@
-//Ashank Kumar, program 
+//Ashank Kumar, program checks if a string is a palindrome
 #include <stdio.h>
 #include <string.h>
 
