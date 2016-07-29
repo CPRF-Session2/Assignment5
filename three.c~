@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <math.h>
+
+int isTriangle(int sidespicyboys, int sidekazookid, int sidepepe) {
+	int wasteofspace;
+	if(sidespicyboys<sidekazookid + sidepepe) {
+		if(sidekazookid<sidespicyboys + sidepepe) {
+			if(sidepepe<sidespicyboys + sidekazookid) {
+				printf("\nThese values form a triangle.\n");
+			}
+			}
+	}
+	else {
+		printf("\nThese values do not form a triangle. \n");
+	}
+return wasteofspace;
+}
+
+int triangleType(int sidespicyboys, int sidekazookid, int sidepepe) {
+	if(sidespicyboys == sidekazookid && sidespicyboys == sidepepe) {
+		 printf("This is an equilateral triangle.\n");
+	       }
+	if((sidespicyboys == sidekazookid && sidespicyboys != sidepepe) ||(sidespicyboys == sidepepe && sidespicyboys != sidekazookid) ||( sidekazookid == sidepepe && sidekazookid != sidepepe)) {
+		 printf("This is an isosceles triangle.\n");
+	}
+	if((sidespicyboys != sidekazookid && sidespicyboys != sidepepe) || (sidekazookid != sidespicyboys && sidekazookid != sidepepe)) {
+		 printf("This is a scalene triangle.\n");
+}
+return 0;
+}
+
+int sanitizedInput(int sidespicyboys, int sidekazookid, int sidepepe)
+{	do {
+	printf("\nPlease enter a number.\n");
+	if(scanf("%d", &sidespicyboys)==0) {
+		printf("Not a number!\n");
+		while(getchar()!='\n');
+	}
+	   }while(!(sidespicyboys>=1 && sidespicyboys<=2147483647));
+
+	do {
+	printf("\nPlease enter another number.\n");
+	if(scanf("%d", &sidekazookid)==0) {
+	        printf("Not a number!\n");
+		while(getchar()!='\n');
+	    }
+	    }while(!(sidekazookid>=1 && sidekazookid<=2147483647));
+
+	do {
+		printf("\nPlease enter one more number.\n");
+		if(scanf("%d", &sidepepe)==0) {
+			printf("Not a number!\n");
+			while(getchar()!='\n');
+	   				       }
+	   }while(!(sidepepe>=1 && sidepepe<=2147483647));
+
+return sidespicyboys;
+return sidekazookid;
+return sidepepe;
+}
+
+int main() {
+	int triangulartype;
+	int extra;
+	int sidespicyboys;
+	int sidekazookid;
+	int sidepepe;
+	int invalid;
+	invalid = sanitizedInput(sidespicyboys, sidekazookid, sidepepe);
+	extra = isTriangle(sidespicyboys, sidekazookid, sidepepe);	
+	triangulartype = triangleType(sidespicyboys, sidekazookid, sidepepe);		
+	return 0;
+}
+	
