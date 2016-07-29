@@ -1,0 +1,10 @@
+Can Parlar
+1.A. It creates a copy and modifies the copy only. If you dont use return variableName command the variable will not return.
+
+1.B. It creates a reference of that varible in the other function and modifies it wile changing the original one too.
+
+2. It returns a integer or a datatype from a function to another, it terminates the code at the end and it just returns from a function to another.
+
+3. It enables reuse without rewriting the function again and makes the code cleaner.
+
+
